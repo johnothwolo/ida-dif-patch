@@ -17,6 +17,9 @@
 #	elif linux
 #		define READ "r"
 #		define WRITE "w"
+#	elif __APPLE__
+#		define READ "r"
+#		define WRITE "w"
 #	else
 #		error Unknown system.
 #endif /*_WIN32*/
